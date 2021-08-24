@@ -1,0 +1,25 @@
+name: pip_client_data_dart
+version: 1.0.0
+author: Sergey Seroukhov <seroukhov@gmail.com>
+description: This is the Data microservice from the Pip.Templates library.
+homepage: https://github.com/pip-templates-services/pip-client-data-dart
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+dependencies: 
+  pip_service_data_dart:
+    git: https://github.com/pip-templates-services/pip-service-data-dart.git
+  pip_services3_commons: ^1.0.12
+  pip_services3_components: ^1.0.6
+  pip_services3_data: ^1.0.6
+  pip_services3_mongodb: ^1.0.4
+  pip_services3_grpc: ^1.0.0
+  pip_services3_rpc: ^1.0.8
+  angel: ^2.0.0
+  analyzer: ^0.40.0
+  grpc: ^2.9.0
+  pip_services3_container: ^1.0.3
+  pip_services3_elasticsearch: ^1.0.0
+  pip_services3_prometheus: ^1.0.0
+dev_dependencies: 
+  test: ^1.16.5
