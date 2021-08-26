@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:pip_service_data_dart/pip_service_data_dart.dart';
 import 'package:pip_services3_commons/pip_services3_commons.dart';
 
+import 'EntityV1.dart';
 import 'IEntitiesClient.dart';
 
 class EntitiesMockClientV1 implements IEntitiesClientV1 {

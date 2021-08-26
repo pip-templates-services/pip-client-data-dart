@@ -1,7 +1,8 @@
 import 'dart:async';
 
+import 'package:pip_client_data_dart/src/version1/EntityTypeV1.dart';
+import 'package:pip_client_data_dart/src/version1/EntityV1.dart';
 import 'package:pip_client_data_dart/src/version1/IEntitiesClient.dart';
-import 'package:pip_service_data_dart/pip_service_data_dart.dart';
 import 'package:test/test.dart';
 import 'package:pip_services3_commons/pip_services3_commons.dart';
 

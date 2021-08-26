@@ -1,9 +1,10 @@
 import 'package:fixnum/fixnum.dart';
-import 'package:pip_service_data_dart/pip_service_data_dart.dart';
 
 import 'package:pip_services3_commons/pip_services3_commons.dart';
 
 import 'package:pip_client_data_dart/src/generated/generated.dart' as proto;
+
+import 'EntityV1.dart';
 
 class EntitiesGrpcConverterV1 {
   static proto.ErrorDescription fromError(Exception err) {

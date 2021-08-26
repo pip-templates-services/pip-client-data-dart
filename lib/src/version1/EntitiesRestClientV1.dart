@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:pip_service_data_dart/pip_service_data_dart.dart';
 import 'package:pip_services3_commons/pip_services3_commons.dart';
 import 'package:pip_services3_commons/src/data/PagingParams.dart';
 import 'package:pip_services3_commons/src/data/FilterParams.dart';
 import 'package:pip_services3_commons/src/data/DataPage.dart';
 import 'package:pip_services3_rpc/pip_services3_rpc.dart';
 
+import 'EntityV1.dart';
 import 'IEntitiesClient.dart';
 
 class EntitiesRestClientV1 extends RestClient implements IEntitiesClientV1 {

@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:pip_service_data_dart/pip_service_data_dart.dart';
 import 'package:pip_services3_commons/pip_services3_commons.dart';
 import 'package:pip_services3_rpc/pip_services3_rpc.dart';
 
+import 'EntityV1.dart';
 import 'IEntitiesClient.dart';
 
 class EntitiesCommandableHttpClientV1 extends CommandableHttpClient

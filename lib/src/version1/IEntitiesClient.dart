@@ -1,7 +1,8 @@
 import 'dart:async';
 
-import 'package:pip_service_data_dart/pip_service_data_dart.dart';
 import 'package:pip_services3_commons/pip_services3_commons.dart';
+
+import 'EntityV1.dart';
 
 abstract class IEntitiesClientV1 {
   Future<DataPage<EntityV1>> getEntities(
