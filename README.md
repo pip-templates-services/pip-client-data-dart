@@ -179,7 +179,7 @@ docker-compose -f ./docker-compose.dev.yml up
 
 Run automated tests:
 ```bash
-dart run test
+pub run test
 ```
 
 Generate GRPC protobuf stubs:
